@@ -1,0 +1,7 @@
+# 简单的测试脚本
+# 定义坐标变量
+start_pos = [0, 64, 0]
+end_pos = [10, 74, 10]
+
+# 使用变量创建一个石头立方体
+fill(start_pos, end_pos, "stone")
