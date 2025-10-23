@@ -49,7 +49,7 @@ Minecraft Script 支持以下语言特性：
    # 定义变量 | Define variables
    start_pos = [0, 64, 0]
    end_pos = [10, 74, 10]
-   
+
    # 使用变量 | Use variables
    fill(start_pos, end_pos, "stone")
    ```
@@ -118,16 +118,6 @@ fill(start_pos, end_pos, "stone")
 1. `internal/lexer/lexer.go` - 添加新的词法规则 | Add new lexical rules
 2. `internal/parser/parser.go` - 添加新的语法规则 | Add new syntax rules
 3. `internal/ast/ast.go` - 添加新的 AST 节点类型 | Add new AST node types
-
-## 文档 | Documentation
-
-更多详细文档请参考：
-
-*For more detailed documentation, please refer to:*
-
-- [模块详解 | Module Details](docs/modules.md)
-- [教程 | Tutorial](docs/TUTORIAL.md)
-- [示例 | Examples](docs/examples.md)
 
 ## 许可证 | License
 
